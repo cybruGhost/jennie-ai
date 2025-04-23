@@ -1,121 +1,115 @@
 
----
-
-# JENNIE AI — Terminal Virtual Assistant
-
-**Jennie AI** is your smart, speaking terminal assistant built with **Python**. She can answer questions using **predefined data**, search the **web via Wikipedia**, perform **calculations**, and **speak back** to you — all from the comfort of your terminal.
 
 ---
 
-## ⭐ Features
+# JENNIE AI — Your Smart Desktop Assistant
 
-- **Predefined intelligence**: Instant responses from a built-in knowledge set
-- **Wikipedia integration**: Fetch summaries and info live from Wikipedia
-- **Math wizard**: Solve basic arithmetic and logic-based problems
-- **Voice output**: She speaks! Using text-to-speech to talk back
-- **Simple terminal interface**: Lightweight, no GUI needed
+**Jennie AI** is a personal AI assistant powered by **Python** and built with a **Tkinter GUI interface**. She's capable of speaking, calculating, fetching facts from **Wikipedia**, and answering using **predefined data** — all within a stylish desktop body.
 
 ---
 
-## 🧠 How It Works
+## 🧠 What Jennie Can Do
 
-- Text input from the user
-- Matched against a predefined dictionary of intents
-- If no match is found: searches Wikipedia
-- If mathematical input is detected: evaluates and returns results
-- Converts text responses to speech using a TTS engine (like `pyttsx3`)
+- **Talks back** using text-to-speech
+- **Calculates** math operations directly
+- **Answers questions** from a built-in knowledge base
+- **Searches Wikipedia** for facts and definitions
+- **Runs in a graphical window**, not the terminal
+- **Sleek interface** using Tkinter with animations (optional)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Run Jennie
 
-### 1. Clone the Repo
+### 1. Clone the Project
 
 ```bash
 git clone https://github.com/cybruGhost/jennie-ai.git
 cd jennie-ai
 
-2. Install Required Dependencies
+2. Install Dependencies
 
 pip install -r requirements.txt
 
-> If you run into any errors, open ChatGPT and ask:
+If anything fails, open ChatGPT and ask:
 
-"How do I fix dependency errors for Jennie AI Python project?"
+> "Help me fix Jennie AI Python dependencies"
+(Copy your error and paste it there)
 
 
 
-3. Run Jennie
+3. Launch Jennie
 
 python jennie-ai.py
 
-Jennie will greet you and wait for your questions.
+Jennie will appear in her GUI body — ready to help you.
 
 
 ---
 
-✨ Sample Commands
-
-Who is Albert Einstein?
-
-What is the capital of Kenya?
-
-20 + (30 / 2)
-
-Define quantum mechanics
-
-Hello Jennie
-
-
-She responds with voice and text.
+✨ Features Overview
 
 
 ---
 
-📦 Dependencies
+📦 Tech Stack
 
-pyttsx3 — for text-to-speech
+Python 3.8+
 
-wikipedia — for live knowledge
+Tkinter — for GUI
 
-datetime, os, sys, math, re — for utilities and parsing
+pyttsx3 — text-to-speech
+
+wikipedia — live data fetching
+
+datetime, math, re — for core logic
 
 
 
 ---
 
-🔐 Privacy
+✨ Sample Prompts
 
-Jennie runs completely offline unless Wikipedia is queried. No data is collected, logged, or stored.
+Hi Jennie
+
+What is 5 * 12 + 3?
+
+Who is Ada Lovelace?
+
+Tell me about Python
+
+What's the time?
+
 
 
 ---
 
-🛠 Troubleshooting
+🧱 Folder Structure (example)
 
-If you get an error:
-
-1. Check your Python version (recommended: Python 3.8+)
-
-
-2. Run pip install -r requirements.txt again
-
-
-3. If still stuck, copy the error and paste it into ChatGPT — it’s got your back
+jennie-ai/
+├── jennie-ai.py
+├── assets/             # Optional: icons, animations
+├── requirements.txt
+└── README.md
 
 
+---
+
+🔐 Privacy & Ethics
+
+Jennie runs locally on your device. No activity is tracked or sent online unless Wikipedia is used. Your queries are safe and private.
 
 
 ---
 
 🪪 License
 
-MIT License — because good AI should be open and ethical.
+MIT License — use it, fork it, improve it.
 
 > Created by Cubic Company
-"Jennie speaks, so you don’t have to search."
+"Jennie’s got a voice, a face, and the answers you need."
 
 
 
-Let me know if you want to add cool terminal effects like typing animations or colors!
+Let me know if you want Jennie to have animated responses, loading effects, or a profile card UI too!
 
