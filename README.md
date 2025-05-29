@@ -23,7 +23,6 @@
 
 ### 1. Clone the Project
 
-```bash
 git clone https://github.com/cybruGhost/jennie-ai.git
 cd jennie-ai
 
@@ -109,7 +108,4 @@ MIT License — use it, fork it, improve it.
 > Created by Cubic Company
 "Jennie’s got a voice, a face, and the answers you need."
 
-
-
-Let me know if you want Jennie to have animated responses, loading effects, or a profile card UI too!
 
